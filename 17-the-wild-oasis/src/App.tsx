@@ -19,8 +19,8 @@ function App() {
             <Header>The Wild Oasis</Header>
             <div>
               <Header>Check in and out</Header>
-              <Button onClick={() => alert("Check in")}>Check in</Button>
-              <Button onClick={() => alert("Check out")}>Check out</Button>
+              <Button variation="primary" size="medium" onClick={() => alert("Check in")}>Check in</Button>
+              <Button variation="primary" size="medium" onClick={() => alert("Check out")}>Check out</Button>
             </div>
           </Row>
 
